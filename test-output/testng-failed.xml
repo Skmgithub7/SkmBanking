@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SkmBanking]">
+  <parameter name="browser" value="chrome"/>
+  <test name="BankingApp Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Skm.TestCases.TC1_LoginTesting"/>
+      <class name="Skm.TestCases.TC2_LoginDDT"/>
+    </classes>
+  </test> <!-- BankingApp Test -->
+</suite> <!-- Failed suite [SkmBanking] -->
